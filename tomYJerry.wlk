@@ -14,11 +14,11 @@ object tom {
     }
 
     method correr(cantMetros){
-        energia =- cantMetros / 2
+        energia -= cantMetros * 0.5
     }
 
     method comer(ratonComido){
-        energia = energia + 12 + ratonComido.peso()
+        energia += 12 + ratonComido.peso()
     }
 
 
